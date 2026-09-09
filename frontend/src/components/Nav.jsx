@@ -5,7 +5,8 @@ const LINKS = [
   { label: "About", href: "#about" },
   { label: "Why Insurance", href: "#why-insurance" },
   { label: "Why Rita", href: "#why-rita" },
-  { label: "Trust", href: "#trust" },
+  { label: "Insights", href: "#insights" },
+  { label: "FAQ", href: "#faq" },
   { label: "Location", href: "#location" },
 ];
 

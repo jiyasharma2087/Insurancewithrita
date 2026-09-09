@@ -31,6 +31,13 @@ Build a minimal, modern, highly attractive personal-brand landing page for premi
 - Fixed: masked-line whileInView never firing (overflow-hidden clipping broke IntersectionObserver) → variant propagation from unclipped parent
 - Fixed: About portrait alignment (objectPosition 50% 26%, resting scale 1.12, gallery frame max-w-md)
 
+## Implemented — Round 2 (2026-09-09)
+- About portrait swapped to latest professional photo (artifacts/y6r2195v); old library photo retired
+- Long-form About: 3 keyword-rich paragraphs (term insurance, LIC plans, gap analysis, claim assistance), specialties chips, areas-served line
+- Insights section (#insights): 3 SEO article cards — "Term insurance in your 20s & 30s…", "How much life cover does a young family actually need?", "LIC plans, endowments & ULIPs…" — each with "Ask Rita about this" WhatsApp CTA
+- FAQ section (#faq): 6 keyword Q&As via shadcn accordion + "Ask Rita directly" CTA
+- SEO: keyword-optimized title/description/keywords meta, Open Graph + Twitter card, JSON-LD Person + FAQPage (6 Q&As) in index.html; nav now About/Why Insurance/Why Rita/Insights/FAQ/Location
+
 ## Backlog / P0-P2
 - P0: Swap in any better-resolution version of Rita's photos if provided (constants in site.js)
 - P1: Real client testimonials (waiting on genuine quotes — none invented)

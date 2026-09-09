@@ -7,6 +7,8 @@ import About from "../components/About";
 import WhyInsurance from "../components/WhyInsurance";
 import WhyRita from "../components/WhyRita";
 import TrustBand from "../components/TrustBand";
+import Insights from "../components/Insights";
+import Faq from "../components/Faq";
 import LocationSec from "../components/LocationSec";
 import FinalCta from "../components/FinalCta";
 import Footer from "../components/Footer";
@@ -51,6 +53,8 @@ export default function Landing() {
         <WhyInsurance />
         <WhyRita />
         <TrustBand />
+        <Insights />
+        <Faq />
         <LocationSec />
         <FinalCta />
       </main>

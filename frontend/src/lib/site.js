@@ -13,7 +13,7 @@ export const HERO_PORTRAIT =
   "https://customer-assets-4nw71qhi.emergentagent.net/job_rita-financial-guide/artifacts/nqpz0xhu_ChatGPT%20Image%20Sep%209%2C%202026%2C%2007_29_58%20PM.png";
 
 export const ABOUT_PORTRAIT =
-  "https://customer-assets-4nw71qhi.emergentagent.net/job_rita-financial-guide/artifacts/2vkhc140_image.png";
+  "https://customer-assets-4nw71qhi.emergentagent.net/job_rita-financial-guide/artifacts/y6r2195v_ChatGPT%20Image%20Sep%209%2C%202026%2C%2008_39_22%20PM.png";
 
 export const FAMILY_PHOTO =
   "https://images.unsplash.com/photo-1657912230234-87f45165424d?crop=entropy&cs=srgb&fm=jpg&q=85&auto=format&fit=crop&w=1600";
