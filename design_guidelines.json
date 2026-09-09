@@ -1,0 +1,127 @@
+{
+  "project_title": "Rita Sharma — Premium Personal Brand Landing Page for Life Insurance Advisor",
+  "archetype": "Architectural / Swiss Editorial & High-End Financial Personal Brand",
+  "theme": "Light mode primary (Warm Cream & Alabaster Canvas with Deep Navy / Charcoal Typography and Champagne Gold Accents)",
+  "data_testid_convention": "All interactive elements (buttons, links, form inputs, toggles, badges, card actions) MUST include data-testid in kebab-case e.g. data-testid=\"hero-talk-to-rita-button\"",
+  "colors": {
+    "background": "#FAF8F5",
+    "background_secondary": "#F3EFEA",
+    "surface_card": "#FFFFFF",
+    "text_primary": "#0B132B",
+    "text_secondary": "#334155",
+    "text_muted": "#64748B",
+    "accent_gold": "#C5A059",
+    "accent_gold_hover": "#B08A42",
+    "accent_gold_soft": "rgba(197, 160, 89, 0.12)",
+    "border_subtle": "#E2DACF",
+    "border_gold": "rgba(197, 160, 89, 0.3)",
+    "navy_dark": "#0A1128",
+    "whatsapp_green": "#25D366"
+  },
+  "typography": {
+    "heading_font_family": "'Playfair Display', 'Cormorant Garamond', 'Georgia', serif",
+    "body_font_family": "'Plus Jakarta Sans', 'Satoshi', 'Inter', -apple-system, sans-serif",
+    "mono_font_family": "'JetBrains Mono', 'Fira Code', monospace",
+    "hierarchy": {
+      "hero_h1": "text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold tracking-tight text-[#0B132B] leading-[1.1]",
+      "section_h2": "text-3xl sm:text-4xl lg:text-5xl font-serif font-medium tracking-tight text-[#0B132B] leading-[1.2]",
+      "card_h3": "text-xl sm:text-2xl font-serif font-medium text-[#0B132B]",
+      "subline_body": "text-base sm:text-lg text-[#334155] leading-relaxed font-sans",
+      "eyebrow_label": "text-xs uppercase tracking-[0.25em] font-sans font-semibold text-[#C5A059]"
+    }
+  },
+  "layout_and_spacing": {
+    "container_padding": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_vertical_spacing": "py-16 sm:py-24 lg:py-32",
+    "bento_grid_gap": "gap-6 sm:gap-8 lg:gap-10",
+    "card_padding": "p-6 sm:p-8 lg:p-10"
+  },
+  "image_urls": {
+    "hero_portrait": {
+      "url": "https://images.unsplash.com/photo-1637589267610-6c66fc2a086b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwaW5kaWFuJTIwYnVzaW5lc3N3b21hbiUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0JTIwZWRpdG9yaWFsJTIwc3R1ZGlvfGVufDB8fHx8MTc4ODk2MzcwN3ww&ixlib=rb-4.1.0&q=85",
+      "description": "Editorial portrait of Rita Sharma in professional navy blazer with arms crossed, high-trust studio background",
+      "placement": "Hero right-hand visual spotlight card with subtle gold border frame and badge overlay"
+    },
+    "about_portrait": {
+      "url": "https://images.unsplash.com/photo-1762341124796-530c0085f7d8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHw0fHxlbGVnYW50JTIwaW5kaWFuJTIwYnVzaW5lc3N3b21hbiUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0JTIwZWRpdG9yaWFsJTIwc3R1ZGlvfGVufDB8fHx8MTc4ODk2MzcwN3ww&ixlib=rb-4.1.0&q=85",
+      "description": "Rita Sharma seated in consultation posture with warm approachable stance",
+      "placement": "About Section storytelling grid side-panel"
+    },
+    "lifestyle_young_family": {
+      "url": "https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      "description": "Happy modern young family outdoors enjoying peaceful moments",
+      "placement": "Why Insurance protection feature narrative card"
+    },
+    "kathua_jammu_landscape": {
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+      "description": "Serene northern Indian landscape symbolizing stability and roots",
+      "placement": "Location banner background overlay with dark navy backdrop filter"
+    }
+  },
+  "required_sections": [
+    {
+      "name": "Navigation Header",
+      "description": "Glassmorphism sticky header (`backdrop-blur-md bg-[#FAF8F5]/85 border-b border-[#E2DACF]/60`), brand mark 'RITA SHARMA • Life Insurance Advisor', desktop nav links (About, Why Insurance, Why Rita, Calculator, Manifesto, Location, FAQ), and CTA 'Talk to Rita' linking to WhatsApp."
+    },
+    {
+      "name": "Kinetic Hero Section",
+      "description": "Headline: 'SECURE YOUR FAMILY'S TOMORROW, TODAY.' Supporting line: 'Smart protection for the people, plans and future that matter most.' Dual CTAs ('Talk to Rita' + 'Get a Free Consultation') both linking to WhatsApp https://wa.me/917889789814 with custom message. Hero right side displays Rita Sharma's portrait in an editorial rounded frame with glowing gold outline badge '15+ Years Trust • Kathua & Pan-India'."
+    },
+    {
+      "name": "Editorial Marquee",
+      "description": "Slow organic drift ticker featuring low-contrast warm gold background: '15+ YEARS EXPERIENCE • 1000s OF FAMILIES PROTECTED • PERSONALIZED GAP ANALYSIS • PAN-INDIA DIGITAL CONSULTATION • ZERO CONFUSION GUARANTEE'."
+    },
+    {
+      "name": "About Section",
+      "description": "Title: '15+ YEARS OF TRUST. ONE SIMPLE PROMISE.' 4 Key Stats: 15+ Years Experience / 1000s of Families / Personalized Guidance / Pan-India Consultation. Narrative paragraph detailing Rita's background based in Kathua, Jammu & Kashmir, serving clients nationwide with honesty and care."
+    },
+    {
+      "name": "Why Insurance Section",
+      "description": "Title: 'YOUR FUTURE DESERVES A PLAN.' 4 Core Points: 1. Protect your income. 2. Secure your family's lifestyle. 3. Keep your children's dreams on track. 4. Create a financial safety net. Quote highlight box: 'Insurance isn't about expecting the worst. It's about being prepared for whatever life brings.'"
+    },
+    {
+      "name": "Why Rita Section",
+      "description": "Title: 'INSURANCE, WITHOUT THE CONFUSION.' 4 Key Benefits: 1. Personalized financial gap analysis. 2. 15+ years of practical experience. 3. Guidance through policies and claims. 4. Simple, convenient digital process."
+    },
+    {
+      "name": "Interactive Financial Gap Calculator",
+      "description": "Custom interactive tool allowing users (young professionals, parents) to input annual income, dependents, existing loans, and children's education milestones to calculate their ideal term insurance coverage gap with instant WhatsApp consultation trigger."
+    },
+    {
+      "name": "Manifesto Chapters",
+      "description": "Numbered editorial chapters (01. Protection Before Speculation, 02. No Jargon Policy, 03. Lifelong Claim Assistance, 04. Remote & On-Demand across India) styled with large serif chapter numbers and rich typography."
+    },
+    {
+      "name": "Trust Signals & Client Stories",
+      "description": "Curated testimonials and scenarios from millennials, young parents, and business owners across Delhi, Mumbai, Bengaluru, Jammu, and Kathua praising Rita's jargon-free, objective advice."
+    },
+    {
+      "name": "Location Banner",
+      "description": "Header: 'Based in Kathua, Jammu & Kashmir • Advising clients across India'. Subtext: 'Whether you're in Jammu, Delhi, Mumbai, Bengaluru or anywhere else in India, you can connect with Rita for personalized insurance guidance.' Includes interactive city pill selectors."
+    },
+    {
+      "name": "Final CTA & Custom Plan Form",
+      "description": "Headline: 'DON'T WAIT FOR THE \"RIGHT TIME\".' Subheadline: 'Protect what you've worked hard to build.' Form fields: Name, Age, Mobile Number, Coverage Goal. Action button: 'REQUEST MY CUSTOM PLAN' which opens WhatsApp with prefilled parameters."
+    },
+    {
+      "name": "Floating WhatsApp Badge",
+      "description": "Fixed bottom-right button linking to https://wa.me/917889789814?text=Hi%20Rita,%20I%20would%20like%20to%20schedule%20a%20free%20insurance%20consultation with pulse animation."
+    },
+    {
+      "name": "Footer",
+      "description": "Minimal editorial footer with disclaimer ('Rita Sharma is an authorized Life Insurance Advisor. Advice is tailored per individual financial profile.'), quick links, location details, and copyright."
+    }
+  ],
+  "motion_and_animations": {
+    "scroll_behavior": "Smooth Lenis scroll momentum feeling",
+    "framer_motion_effects": "Staggered fade-up entrances, subtle parallax on hero visual frame, hover scale (1.02) on interactive cards, glow border transition on active input fields",
+    "kinetic_text_reveal": "Line-by-line slide and opacity reveal on hero headline"
+  },
+  "instructions_to_main_agent": [
+    "Ensure the design DOES NOT look like traditional LIC/government sites (no corporate blue/yellow, no cliché shields, no ugly red/yellow tables). Maintain an Awwwards-level luxury personal brand aesthetic.",
+    "Strictly follow the light editorial palette: Cream background (#FAF8F5), Deep Navy typography (#0B132B), and Warm Champagne Gold accents (#C5A059).",
+    "All CTAs must direct users seamlessly to WhatsApp (https://wa.me/917889789814) with context-specific prefilled messages.",
+    "Add testid attributes (`data-testid=\"...\"`) to all buttons, links, inputs, and interactive widgets.",
+    "Ensure mobile responsiveness is flawless with responsive font clamping and generous spacing."
+  ]
+}
